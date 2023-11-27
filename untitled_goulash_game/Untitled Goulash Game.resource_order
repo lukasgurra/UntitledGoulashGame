@@ -17,8 +17,9 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_dirt_block_grass","order":4,"path":"sprites/spr_dirt_block_grass/spr_dirt_block_grass.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
     {"name":"spr_grid_block","order":1,"path":"sprites/spr_grid_block/spr_grid_block.yy",},
-    {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"spr_player_idle","order":3,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
   ],
 }

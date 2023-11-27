@@ -35,9 +35,10 @@
   },
   "resources": [
     {"id":{"name":"spr_bell_pepper_icon","path":"sprites/spr_bell_pepper_icon/spr_bell_pepper_icon.yy",},},
+    {"id":{"name":"spr_dirt_block_grass","path":"sprites/spr_dirt_block_grass/spr_dirt_block_grass.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"spr_grid_block","path":"sprites/spr_grid_block/spr_grid_block.yy",},},
-    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
+    {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
   ],
   "RoomOrderNodes": [],
   "templateType": "game",
