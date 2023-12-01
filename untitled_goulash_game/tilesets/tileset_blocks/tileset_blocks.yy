@@ -19,7 +19,7 @@
     "name": "spr_block_tileset",
     "path": "sprites/spr_block_tileset/spr_block_tileset.yy",
   },
-  "spriteNoExport": true,
+  "spriteNoExport": false,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
