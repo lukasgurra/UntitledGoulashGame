@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"spr_bell_pepper_icon","path":"sprites/spr_bell_pepper_icon/spr_bell_pepper_icon.yy",},},
@@ -40,6 +40,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_dirt_block","path":"sprites/spr_dirt_block/spr_dirt_block.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_block_tileset","path":"sprites/spr_block_tileset/spr_block_tileset.yy",},},
     {"id":{"name":"spr_grid_block","path":"sprites/spr_grid_block/spr_grid_block.yy",},},
     {"id":{"name":"tileset_blocks","path":"tilesets/tileset_blocks/tileset_blocks.yy",},},
