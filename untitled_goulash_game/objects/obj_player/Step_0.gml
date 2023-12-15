@@ -1,5 +1,6 @@
-move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
-move_x = move_x * move_x_speed;
+move_x_direction = 0 + keyboard_check(vk_right) - keyboard_check(vk_left);
+move_x = move_x_direction * move_x_speed;
+fist_active_cooldown -= 1;
 
 if (place_meeting(x, y+2, collision_tilemap))
 {
@@ -27,3 +28,25 @@ else
 }
 
 move_and_collide(move_x, move_y, collision_tilemap);
+
+if (move_x_direction > 0)
+{
+	player_direction = 1;
+}
+else if (move_x_direction < 0)
+{
+	player_direction = -1;
+}
+
+// Attack with fist only if fist doesn't exist and is off cooldown
+if (keyboard_check(vk_lshift))
+{
+	if(!instance_exists(obj_fist_right) and !instance_exists(obj_fist_left) and (fist_active_cooldown <= 0))
+	{
+		if (player_direction = 1){ fist_sprite = obj_fist_right }
+		else {fist_sprite = obj_fist_left}
+		instance_create_layer(x + player_direction * 50, y+45, "instances", fist_sprite);
+		fist_active_cooldown = fist_cooldown;
+	}
+}
+
