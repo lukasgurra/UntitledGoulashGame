@@ -16,6 +16,8 @@
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_grass","order":8,"path":"objects/obj_grass/obj_grass.yy",},
+    {"name":"spr_grass","order":10,"path":"sprites/spr_grass/spr_grass.yy",},
     {"name":"spr_brick_block","order":6,"path":"sprites/spr_brick_block/spr_brick_block.yy",},
     {"name":"obj_fist_left","order":3,"path":"objects/obj_fist_left/obj_fist_left.yy",},
     {"name":"obj_fist","order":2,"path":"objects/obj_fist/obj_fist.yy",},
@@ -27,7 +29,10 @@
     {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"spr_fist_attack_right","order":7,"path":"sprites/spr_fist_attack_right/spr_fist_attack_right.yy",},
     {"name":"spr_block_tileset","order":2,"path":"sprites/spr_block_tileset/spr_block_tileset.yy",},
+    {"name":"obj_environment","order":7,"path":"objects/obj_environment/obj_environment.yy",},
+    {"name":"obj_pumpkin","order":6,"path":"objects/obj_pumpkin/obj_pumpkin.yy",},
     {"name":"spr_grid_block","order":1,"path":"sprites/spr_grid_block/spr_grid_block.yy",},
+    {"name":"obj_enemy","order":5,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"spr_player_idle","order":3,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
   ],
 }
