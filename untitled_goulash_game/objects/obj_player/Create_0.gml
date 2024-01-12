@@ -16,6 +16,7 @@ fist_active_cooldown = 0;
 
 collision_tilemap = layer_tilemap_get_id("Collision_layer");
 
-hit_points = 3;
+max_hit_points = 3;
+hit_points = max_hit_points;
 hit_timer = 0;
 hit_cooldown = 60;
