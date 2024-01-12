@@ -1,6 +1,7 @@
 move_x_direction = 0 + keyboard_check(vk_right) - keyboard_check(vk_left);
 move_x = move_x_direction * move_x_speed;
 fist_active_cooldown -= 1;
+if (hit_timer > 0){hit_timer -= 1;}
 
 if (place_meeting(x, y+2, collision_tilemap))
 {
@@ -38,6 +39,25 @@ else if (move_x_direction < 0)
 	player_direction = -1;
 }
 
+function toggle_visibility_when_hit()
+{
+	if (hit_timer > 0)
+	{
+	    if (visible == true)
+	    {
+	        visible = false
+	    }
+	    else
+	    {
+	        visible = true
+	    }
+	}
+	else
+	{
+		visible = true
+	}
+}
+
 // Attack with fist only if fist doesn't exist and is off cooldown
 if (keyboard_check(vk_lshift))
 {
@@ -50,3 +70,4 @@ if (keyboard_check(vk_lshift))
 	}
 }
 
+toggle_visibility_when_hit();
