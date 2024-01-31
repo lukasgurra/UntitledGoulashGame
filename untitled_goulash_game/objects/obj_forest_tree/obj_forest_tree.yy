@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_grass",
+  "name": "obj_forest_tree",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -9,10 +9,7 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": {
-    "name": "obj_environment",
-    "path": "objects/obj_environment/obj_environment.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_grass",
-    "path": "sprites/spr_grass/spr_grass.yy",
+    "name": "spr_tree",
+    "path": "sprites/spr_tree/spr_tree.yy",
   },
   "spriteMaskId": null,
   "visible": true,

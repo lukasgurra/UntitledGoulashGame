@@ -39,7 +39,6 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"obj_grass","path":"objects/obj_grass/obj_grass.yy",},},
     {"id":{"name":"spr_bell_pepper_icon","path":"sprites/spr_bell_pepper_icon/spr_bell_pepper_icon.yy",},},
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},},
     {"id":{"name":"spr_lava_block","path":"sprites/spr_lava_block/spr_lava_block.yy",},},
@@ -59,6 +58,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_fist_attack_right","path":"sprites/spr_fist_attack_right/spr_fist_attack_right.yy",},},
     {"id":{"name":"spr_forest_environment_tileset","path":"sprites/spr_forest_environment_tileset/spr_forest_environment_tileset.yy",},},
+    {"id":{"name":"obj_forest_tree","path":"objects/obj_forest_tree/obj_forest_tree.yy",},},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},},
     {"id":{"name":"spr_block_tileset","path":"sprites/spr_block_tileset/spr_block_tileset.yy",},},

@@ -21,7 +21,6 @@
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"obj_grass","order":8,"path":"objects/obj_grass/obj_grass.yy",},
     {"name":"spr_lava_block","order":1,"path":"sprites/spr_lava_block/spr_lava_block.yy",},
     {"name":"spr_mushroom_red","order":2,"path":"sprites/spr_mushroom_red/spr_mushroom_red.yy",},
     {"name":"tileset_forest_environment","order":1,"path":"tilesets/tileset_forest_environment/tileset_forest_environment.yy",},
@@ -36,6 +35,7 @@
     {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"spr_fist_attack_right","order":2,"path":"sprites/spr_fist_attack_right/spr_fist_attack_right.yy",},
     {"name":"spr_forest_environment_tileset","order":3,"path":"sprites/spr_forest_environment_tileset/spr_forest_environment_tileset.yy",},
+    {"name":"obj_forest_tree","order":8,"path":"objects/obj_forest_tree/obj_forest_tree.yy",},
     {"name":"spr_tree","order":1,"path":"sprites/spr_tree/spr_tree.yy",},
     {"name":"Sprite13","order":15,"path":"sprites/Sprite13/Sprite13.yy",},
     {"name":"spr_devil_pizza","order":1,"path":"sprites/spr_devil_pizza/spr_devil_pizza.yy",},
